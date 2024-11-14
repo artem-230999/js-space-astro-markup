@@ -1,0 +1,25 @@
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.hero__inner {
+  min-height: 820px;
+  height: 90vh;
+  max-height: 100px;
+  display: grid;
+  align-items: center;
+}
+.hero__title {
+  font-size: 180px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.hero__text {
+  max-width: 320px;
+  font-family: var(--ff-dm-sans);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-transform: capitalize;
+}

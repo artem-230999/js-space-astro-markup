@@ -1,0 +1,14 @@
+.amazing {
+  padding: 140px 0;
+}
+.amazing__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.amazing-text {
+  max-width: 330px;
+}
+.amazing__images {
+  display: flex;
+  gap: 30px;
+}

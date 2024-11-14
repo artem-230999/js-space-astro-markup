@@ -1,0 +1,18 @@
+.frontier {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.frontier__inner {
+  min-height: 400px;
+  display: flex;  
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+}
+.frontier__content {
+  max-width: 602px;
+}
+.frontier .title {
+  font-weight: 400;
+}

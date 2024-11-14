@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header .container {
+  max-width: 1880px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 1.6;
+  position: relative;
+}
+.menu {
+  display: flex;
+}
+.menu__link {
+  padding: 25px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.header .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header__actions {
+  display: flex;
+  align-items: center;
+}
+.header__search {
+  min-width: 30px;
+  height: 30px;
+  mask-image: var(--icon-search);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  background-color: #000;
+}

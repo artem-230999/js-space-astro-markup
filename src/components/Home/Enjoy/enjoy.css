@@ -1,0 +1,62 @@
+.enjoy {
+  padding: 190px 0 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  text-align: center;
+  color: #fff;
+  min-height: 920px;
+}
+.enjoy .title {
+  margin-bottom: 10px;
+}
+.enjoy .text-content {
+  margin-bottom: 20px;
+}
+.enjoy-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.enjoy-card {
+  padding: 64px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  background-color: var(--c-black);
+  transition: transform .35s ease;
+}
+.enjoy-card:hover {
+  transform: scale(1.1);
+}
+.enjoy-card::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center center;
+  background-color: currentColor;
+  margin: 0 auto;
+}
+.enjoy-card-icon-bike::before {
+  mask-image: var(--icon-bike);
+}
+.enjoy-card-icon-helmet::before {
+  mask-image: var(--icon-helmet);
+}
+.enjoy-card-icon-park::before {
+  mask-image: var(--icon-park);
+}
+.enjoy-card--white {
+  color: var(--c-black);
+  background-color: #fff;
+}
+.enjoy-card__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
