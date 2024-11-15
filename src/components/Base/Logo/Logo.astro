@@ -1,6 +1,8 @@
-
+---
+const {width, height} = Astro.props;
+---
 
 
 <a class="logo" href="/">
-  <img src="./images/logo.svg" alt="logo" width="120" height="54">
+  <img src="./images/logo.svg" alt="logo" width={width} height={height}>
 </a>
