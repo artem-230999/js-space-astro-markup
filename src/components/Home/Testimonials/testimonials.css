@@ -1,0 +1,34 @@
+.testimonials {
+  padding: 105px 60px;
+  color: #fff;
+  background-color: var(--c-black);
+}
+.testimonials .swiper {
+}
+.testimonials .swiper-wrapper {
+}
+.testimonials .swiper-slide {
+  box-sizing: border-box !important;
+}
+.testimonials-card {
+  position: relative;
+  padding-left: 140px;
+}
+.testimonials-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-image: url('images/icon-quote.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.testimonials-card__text {
+  font-size: 36px;
+  line-height: 1.2;
+}
+.testimonials-card__name {
+}

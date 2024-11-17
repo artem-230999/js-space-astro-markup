@@ -1,0 +1,33 @@
+.faq {
+  margin-bottom: 140px;
+}
+.faq__inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 50px;
+}
+.faq-card__head {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq-card__head::after {
+  content: '+';
+  width: 40px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+.faq-card[open] .faq-card__head::after {
+  content: '-';
+}
+.faq-card__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1;
+}

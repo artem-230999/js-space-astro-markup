@@ -1,4 +1,6 @@
 ---
+import '../style.css';
+
 import Layout from '../layouts/Layout.astro';
 import Hero from '../components/Home/Hero/Hero.astro';
 import Amazing from '../components/Home/Amazing/Amazing.astro';
@@ -7,11 +9,12 @@ import Enjoy from '../components/Home/Enjoy/Enjoy.astro';
 import Scooter from '../components/Home/Scooter/Scooter.astro';
 import Promo from '../components/Home/Promo/Promo.astro';
 import Eco from '../components/Home/Eco/Eco.astro';
-
-import '../style.css';
+import Faq from '../components/Home/Faq/Faq.astro';
+import ScDesign from '../components/Home/Sc-design/Sc-design.astro';
+import Testimonials from '../components/Home/Testimonials/Testimonials.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Kick’s Scooter">
 	<main>
 		<Hero />
 		<Amazing />
@@ -20,5 +23,8 @@ import '../style.css';
 		<Scooter />
 		<Promo />
 		<Eco />
+		<Faq />
+		<ScDesign />
+		<Testimonials />
 	</main>
 </Layout>
