@@ -2,9 +2,9 @@
 import './testimonials.css';
 ---
 
-
 <section class="testimonials">
   <h2 class="sr-only">Hello</h2>
+  <div class="container">
   <div class="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -19,53 +19,18 @@ import './testimonials.css';
           <span class="testimonials-card__name">Tekon Cron</span>
         </blockquote>
       </div>
-      <div class="swiper-slide">
-        <blockquote class="testimonials-card">
-          <div class="testimonials-card__text">
-            <p>
-              It is a long established fact that
-              will be distracted by content
-              looking at its layout.
-            </p>
-          </div>
-          <span class="testimonials-card__name">Tekon Cron</span>
-        </blockquote>
-      </div>
-      <div class="swiper-slide">
-        <blockquote class="testimonials-card">
-          <div class="testimonials-card__text">
-            <p>
-              It is a long established fact that
-              will be distracted by content
-              looking at its layout.
-            </p>
-          </div>
-          <span class="testimonials-card__name">Tekon Cron</span>
-        </blockquote>
-      </div>
-      <div class="swiper-slide">
-        <blockquote class="testimonials-card">
-          <div class="testimonials-card__text">
-            <p>
-              It is a long established fact that
-              will be distracted by content
-              looking at its layout.
-            </p>
-          </div>
-          <span class="testimonials-card__name">Tekon Cron</span>
-        </blockquote>
-      </div>
     </div>
   </div>
+</div>
 </section>
+<!-- <script>
+  // import Swiper JS
+import Swiper from 'swiper';
+// import Swiper styles
+import 'swiper/css';
 
-
-<script>
-  import Swiper from 'swiper';
-  import 'swiper/css';
-
-  const swiper = new Swiper('.testimonials .swiper', {
+const swiper = new Swiper('.swiper', {
   loop: true,
-  slidesPerView: 2,
+  slidesPerView: 2
 });
-</script>
+</script> -->

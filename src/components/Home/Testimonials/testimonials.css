@@ -13,6 +13,7 @@
 .testimonials-card {
   position: relative;
   padding-left: 140px;
+  max-width: 595px;
 }
 .testimonials-card::before {
   content: '';

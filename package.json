@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "astro": "^4.16.12",
-    "swiper": "^11.1.14"
+    "swiper": "^11.1.15"
   }
 }
