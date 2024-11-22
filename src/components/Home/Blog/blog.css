@@ -1,0 +1,31 @@
+.blog {
+  padding-block: 140px;
+}
+.blog__title {
+  margin-bottom: 10px;
+}
+.blog__text {
+  margin-bottom: 50px;
+  max-width: 350px;
+}
+.blog__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.blog-card {
+  display: grid;
+  gap: 20px;
+}
+.blog-card__date {
+  font-family: var(--ff-dm-sans);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.blog-card__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1;
+}

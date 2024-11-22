@@ -40,3 +40,17 @@
   mask-size: contain;
   background-color: #000;
 }
+
+/* logo */
+.logo-fixed {
+  display: none;
+}
+
+.header.fixed .logo-main {
+  display: none;
+}
+
+.header.fixed .logo-fixed {
+  display: block;
+}
+

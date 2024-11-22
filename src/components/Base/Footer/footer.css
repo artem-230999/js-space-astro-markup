@@ -1,16 +1,21 @@
 .footer {
+  padding-block: 80px;
+  font-family: var(--ff-dm-sans);
+  font-size: 16px;
+  line-height: 2;
+  color: #fff;
+  background-color: #171717;
 }
-.container {
-}
-.footer-menu {
-}
-.footer-menu__link {
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
 }
 .address {
+  font-style: normal;
 }
 .address-list {
-}
-.address-list__link {
-}
-.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
